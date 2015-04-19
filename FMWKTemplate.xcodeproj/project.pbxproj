@@ -38,7 +38,7 @@
 		CE101C7C1AE417F300BA8F5F /* FMWKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMWKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101C801AE417F300BA8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE101C811AE417F300BA8F5F /* FMWKTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMWKTemplate.h; sourceTree = "<group>"; };
-		CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMWKTemplateTests-mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FMWKTemplateTests-mac.xctest"; path = "FMWKTemplateTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101C8D1AE417F300BA8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMWKTemplateTests.m; sourceTree = "<group>"; };
 		CE101C9D1AE4185500BA8F5F /* FMWKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMWKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +63,7 @@
 		CE101CDC1AE41B2A00BA8F5F /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
 		CE101CDD1AE41B2A00BA8F5F /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		CE101CDE1AE41B2A00BA8F5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE101CDF1AE4326700BA8F5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 		CE101C721AE417F300BA8F5F = {
 			isa = PBXGroup;
 			children = (
+				CE101CDF1AE4326700BA8F5F /* README.md */,
 				CE101C7E1AE417F300BA8F5F /* FMWKTemplate */,
 				CE101C8B1AE417F300BA8F5F /* FMWKTemplateTests */,
 				CE101CBE1AE4190E00BA8F5F /* Frameworks */,
@@ -753,6 +755,7 @@
 				CE101C941AE417F300BA8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE101C951AE417F300BA8F5F /* Build configuration list for PBXNativeTarget "FMWKTemplateTests-Mac" */ = {
 			isa = XCConfigurationList;
@@ -761,6 +764,7 @@
 				CE101C971AE417F300BA8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE101CB01AE4185500BA8F5F /* Build configuration list for PBXNativeTarget "FMWKTemplate-iOS" */ = {
 			isa = XCConfigurationList;
@@ -769,6 +773,7 @@
 				CE101CB21AE4185500BA8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE101CB31AE4185500BA8F5F /* Build configuration list for PBXNativeTarget "FMWKTemplateTests-iOS" */ = {
 			isa = XCConfigurationList;
@@ -777,6 +782,7 @@
 				CE101CB51AE4185500BA8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
