@@ -1,0 +1,39 @@
+#!/bin/bash
+
+TEMPLATE_NAME="FMWKTemplate"
+FRAMEWORK_NAME=$1
+
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 FRAMEWORK_NAME"
+  exit 1
+fi
+
+MOVE="mv"
+REMOVE="rm"
+
+echo "Renaming from $TEMPLATE_NAME to $FRAMEWORK_NAME"
+
+# xcworkspace
+$MOVE $TEMPLATE_NAME.xcworkspace/xcshareddata/{$TEMPLATE_NAME,$FRAMEWORK_NAME}.xccheckout
+$MOVE {$TEMPLATE_NAME,$FRAMEWORK_NAME}.xcworkspace
+
+# xcodeproj
+$MOVE $TEMPLATE_NAME.xcodeproj/xcshareddata/xcschemes/{$TEMPLATE_NAME,$FRAMEWORK_NAME}-Mac.xcscheme
+$MOVE $TEMPLATE_NAME.xcodeproj/xcshareddata/xcschemes/{$TEMPLATE_NAME,$FRAMEWORK_NAME}-iOS.xcscheme
+$MOVE {$TEMPLATE_NAME,$FRAMEWORK_NAME}.xcodeproj
+
+# Sources
+$MOVE $TEMPLATE_NAME/{$TEMPLATE_NAME,$FRAMEWORK_NAME}.h
+$MOVE {$TEMPLATE_NAME,$FRAMEWORK_NAME}
+
+# Tests
+$MOVE {"$TEMPLATE_NAME","$FRAMEWORK_NAME"}Tests
+$MOVE ${FRAMEWORK_NAME}Tests/{"$TEMPLATE_NAME","$FRAMEWORK_NAME"}Tests.m
+
+# Other Files
+$REMOVE README.md
+$MOVE {$TEMPLATE_NAME-,}README.md
+$REMOVE LICENSE
+$MOVE {$TEMPLATE_NAME-,}LICENSE
+
+
