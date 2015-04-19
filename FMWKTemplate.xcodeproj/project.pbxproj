@@ -38,13 +38,31 @@
 		CE101C7C1AE417F300BA8F5F /* FMWKTemplate-Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FMWKTemplate-Mac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101C801AE417F300BA8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE101C811AE417F300BA8F5F /* FMWKTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMWKTemplate.h; sourceTree = "<group>"; };
-		CE101C871AE417F300BA8F5F /* FMWKTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMWKTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMWKTemplateTests-mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101C8D1AE417F300BA8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMWKTemplateTests.m; sourceTree = "<group>"; };
 		CE101C9D1AE4185500BA8F5F /* FMWKTemplate-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FMWKTemplate-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE101CA71AE4185500BA8F5F /* FMWKTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMWKTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE101CA71AE4185500BA8F5F /* FMWKTemplateTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMWKTemplateTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101CBF1AE4191E00BA8F5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE101CC31AE4194000BA8F5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE101CC71AE41B2A00BA8F5F /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		CE101CC91AE41B2A00BA8F5F /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		CE101CCA1AE41B2A00BA8F5F /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		CE101CCB1AE41B2A00BA8F5F /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		CE101CCC1AE41B2A00BA8F5F /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		CE101CCE1AE41B2A00BA8F5F /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		CE101CCF1AE41B2A00BA8F5F /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		CE101CD01AE41B2A00BA8F5F /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		CE101CD41AE41B2A00BA8F5F /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		CE101CD51AE41B2A00BA8F5F /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		CE101CD61AE41B2A00BA8F5F /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		CE101CD71AE41B2A00BA8F5F /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		CE101CD91AE41B2A00BA8F5F /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		CE101CDA1AE41B2A00BA8F5F /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		CE101CDB1AE41B2A00BA8F5F /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		CE101CDC1AE41B2A00BA8F5F /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		CE101CDD1AE41B2A00BA8F5F /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		CE101CDE1AE41B2A00BA8F5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +107,7 @@
 				CE101C7E1AE417F300BA8F5F /* FMWKTemplate */,
 				CE101C8B1AE417F300BA8F5F /* FMWKTemplateTests */,
 				CE101CBE1AE4190E00BA8F5F /* Frameworks */,
+				CE101CC51AE41B2A00BA8F5F /* Configurations */,
 				CE101C7D1AE417F300BA8F5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,9 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				CE101C7C1AE417F300BA8F5F /* FMWKTemplate-Mac.framework */,
-				CE101C871AE417F300BA8F5F /* FMWKTemplateTests.xctest */,
+				CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */,
 				CE101C9D1AE4185500BA8F5F /* FMWKTemplate-iOS.framework */,
-				CE101CA71AE4185500BA8F5F /* FMWKTemplateTests.xctest */,
+				CE101CA71AE4185500BA8F5F /* FMWKTemplateTests-iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +214,72 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CE101CC51AE41B2A00BA8F5F /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				CE101CC61AE41B2A00BA8F5F /* Base */,
+				CE101CD31AE41B2A00BA8F5F /* iOS */,
+				CE101CD81AE41B2A00BA8F5F /* Mac OS X */,
+				CE101CDE1AE41B2A00BA8F5F /* README.md */,
+			);
+			name = Configurations;
+			path = Carthage/Checkouts/xcconfigs;
+			sourceTree = "<group>";
+		};
+		CE101CC61AE41B2A00BA8F5F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CE101CC71AE41B2A00BA8F5F /* Common.xcconfig */,
+				CE101CC81AE41B2A00BA8F5F /* Configurations */,
+				CE101CCD1AE41B2A00BA8F5F /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CE101CC81AE41B2A00BA8F5F /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				CE101CC91AE41B2A00BA8F5F /* Debug.xcconfig */,
+				CE101CCA1AE41B2A00BA8F5F /* Profile.xcconfig */,
+				CE101CCB1AE41B2A00BA8F5F /* Release.xcconfig */,
+				CE101CCC1AE41B2A00BA8F5F /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		CE101CCD1AE41B2A00BA8F5F /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				CE101CCE1AE41B2A00BA8F5F /* Application.xcconfig */,
+				CE101CCF1AE41B2A00BA8F5F /* Framework.xcconfig */,
+				CE101CD01AE41B2A00BA8F5F /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		CE101CD31AE41B2A00BA8F5F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CE101CD41AE41B2A00BA8F5F /* iOS-Application.xcconfig */,
+				CE101CD51AE41B2A00BA8F5F /* iOS-Base.xcconfig */,
+				CE101CD61AE41B2A00BA8F5F /* iOS-Framework.xcconfig */,
+				CE101CD71AE41B2A00BA8F5F /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CE101CD81AE41B2A00BA8F5F /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				CE101CD91AE41B2A00BA8F5F /* Mac-Application.xcconfig */,
+				CE101CDA1AE41B2A00BA8F5F /* Mac-Base.xcconfig */,
+				CE101CDB1AE41B2A00BA8F5F /* Mac-DynamicLibrary.xcconfig */,
+				CE101CDC1AE41B2A00BA8F5F /* Mac-Framework.xcconfig */,
+				CE101CDD1AE41B2A00BA8F5F /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -250,7 +335,7 @@
 			);
 			name = "FMWKTemplateTests-mac";
 			productName = FMWKTemplateTests;
-			productReference = CE101C871AE417F300BA8F5F /* FMWKTemplateTests.xctest */;
+			productReference = CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CE101C9C1AE4185500BA8F5F /* FMWKTemplate-iOS */ = {
@@ -286,7 +371,7 @@
 			);
 			name = "FMWKTemplateTests-iOS";
 			productName = FMWKTemplateTests;
-			productReference = CE101CA71AE4185500BA8F5F /* FMWKTemplateTests.xctest */;
+			productReference = CE101CA71AE4185500BA8F5F /* FMWKTemplateTests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -412,6 +497,7 @@
 /* Begin XCBuildConfiguration section */
 		CE101C901AE417F300BA8F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CC91AE41B2A00BA8F5F /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -446,6 +532,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -457,6 +544,7 @@
 		};
 		CE101C911AE417F300BA8F5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CCB1AE41B2A00BA8F5F /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -485,6 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -495,6 +584,7 @@
 		};
 		CE101C931AE417F300BA8F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CDC1AE41B2A00BA8F5F /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -512,6 +602,7 @@
 		};
 		CE101C941AE417F300BA8F5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CDC1AE41B2A00BA8F5F /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -529,6 +620,7 @@
 		};
 		CE101C961AE417F300BA8F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD91AE41B2A00BA8F5F /* Mac-Application.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -547,6 +639,7 @@
 		};
 		CE101C971AE417F300BA8F5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD91AE41B2A00BA8F5F /* Mac-Application.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -561,6 +654,7 @@
 		};
 		CE101CB11AE4185500BA8F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD61AE41B2A00BA8F5F /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -585,6 +679,7 @@
 		};
 		CE101CB21AE4185500BA8F5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD61AE41B2A00BA8F5F /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
@@ -605,6 +700,7 @@
 		};
 		CE101CB41AE4185500BA8F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD41AE41B2A00BA8F5F /* iOS-Application.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -626,6 +722,7 @@
 		};
 		CE101CB51AE4185500BA8F5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD41AE41B2A00BA8F5F /* iOS-Application.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
