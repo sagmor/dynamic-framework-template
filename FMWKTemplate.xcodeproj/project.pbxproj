@@ -39,7 +39,7 @@
 		CE101C7C1AE417F300BA8F5F /* FMWKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMWKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101C801AE417F300BA8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE101C811AE417F300BA8F5F /* FMWKTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMWKTemplate.h; sourceTree = "<group>"; };
-		CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FMWKTemplateTests-mac.xctest"; path = "FMWKTemplateTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE101C871AE417F300BA8F5F /* FMWKTemplateTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMWKTemplateTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101C8D1AE417F300BA8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMWKTemplateTests.m; sourceTree = "<group>"; };
 		CE101C9D1AE4185500BA8F5F /* FMWKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMWKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				CE101C7C1AE417F300BA8F5F /* FMWKTemplate.framework */,
-				CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */,
+				CE101C871AE417F300BA8F5F /* FMWKTemplateTests-Mac.xctest */,
 				CE101C9D1AE4185500BA8F5F /* FMWKTemplate.framework */,
 				CE101CA71AE4185500BA8F5F /* FMWKTemplateTests-iOS.xctest */,
 			);
@@ -340,7 +340,7 @@
 			);
 			name = "FMWKTemplateTests-Mac";
 			productName = FMWKTemplateTests;
-			productReference = CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */;
+			productReference = CE101C871AE417F300BA8F5F /* FMWKTemplateTests-Mac.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CE101C9C1AE4185500BA8F5F /* FMWKTemplate-iOS */ = {
