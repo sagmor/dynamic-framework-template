@@ -8,13 +8,12 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-MOVE="mv"
-REMOVE="rm"
+MOVE="git mv"
+REMOVE="git rm"
 
 echo "Renaming from $TEMPLATE_NAME to $FRAMEWORK_NAME"
 
 # xcworkspace
-$MOVE $TEMPLATE_NAME.xcworkspace/xcshareddata/{$TEMPLATE_NAME,$FRAMEWORK_NAME}.xccheckout
 $MOVE {$TEMPLATE_NAME,$FRAMEWORK_NAME}.xcworkspace
 
 # xcodeproj
@@ -35,5 +34,10 @@ $REMOVE README.md
 $MOVE {$TEMPLATE_NAME-,}README.md
 $REMOVE LICENSE
 $MOVE {$TEMPLATE_NAME-,}LICENSE
+$REMOVE script/rename
 
+# Find and Replace
+LC_ALL=C find . -type f -name '*' -not -path './.git/*' -exec sed -i "" "s/$TEMPLATE_NAME/$FRAMEWORK_NAME/g" {} \;
 
+git remote rm origin
+git commit --all -m "Renamed template to $FRAMEWORK_NAME"
