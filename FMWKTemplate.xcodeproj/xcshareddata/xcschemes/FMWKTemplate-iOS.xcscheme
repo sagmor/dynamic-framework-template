@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE101C9C1AE4185500BA8F5F"
-               BuildableName = "FMWKTemplate-iOS.framework"
+               BuildableName = "FMWKTemplate.framework"
                BlueprintName = "FMWKTemplate-iOS"
                ReferencedContainer = "container:FMWKTemplate.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE101C9C1AE4185500BA8F5F"
-            BuildableName = "FMWKTemplate-iOS.framework"
+            BuildableName = "FMWKTemplate.framework"
             BlueprintName = "FMWKTemplate-iOS"
             ReferencedContainer = "container:FMWKTemplate.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE101C9C1AE4185500BA8F5F"
-            BuildableName = "FMWKTemplate-iOS.framework"
+            BuildableName = "FMWKTemplate.framework"
             BlueprintName = "FMWKTemplate-iOS"
             ReferencedContainer = "container:FMWKTemplate.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE101C9C1AE4185500BA8F5F"
-            BuildableName = "FMWKTemplate-iOS.framework"
+            BuildableName = "FMWKTemplate.framework"
             BlueprintName = "FMWKTemplate-iOS"
             ReferencedContainer = "container:FMWKTemplate.xcodeproj">
          </BuildableReference>
