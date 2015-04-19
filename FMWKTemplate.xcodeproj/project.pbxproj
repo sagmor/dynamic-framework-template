@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CE101C821AE417F300BA8F5F /* FMWKTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = CE101C811AE417F300BA8F5F /* FMWKTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE101C881AE417F300BA8F5F /* FMWKTemplate-Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE101C7C1AE417F300BA8F5F /* FMWKTemplate-Mac.framework */; };
+		CE101C881AE417F300BA8F5F /* FMWKTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE101C7C1AE417F300BA8F5F /* FMWKTemplate.framework */; };
 		CE101C8F1AE417F300BA8F5F /* FMWKTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */; };
-		CE101CA81AE4185500BA8F5F /* FMWKTemplate-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE101C9D1AE4185500BA8F5F /* FMWKTemplate-iOS.framework */; };
+		CE101CA81AE4185500BA8F5F /* FMWKTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE101C9D1AE4185500BA8F5F /* FMWKTemplate.framework */; };
 		CE101CBC1AE418E600BA8F5F /* FMWKTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = CE101C811AE417F300BA8F5F /* FMWKTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE101CBD1AE418EE00BA8F5F /* FMWKTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */; };
 		CE101CC01AE4191E00BA8F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE101CBF1AE4191E00BA8F5F /* Foundation.framework */; };
@@ -35,13 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE101C7C1AE417F300BA8F5F /* FMWKTemplate-Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FMWKTemplate-Mac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE101C7C1AE417F300BA8F5F /* FMWKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMWKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101C801AE417F300BA8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE101C811AE417F300BA8F5F /* FMWKTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMWKTemplate.h; sourceTree = "<group>"; };
 		CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMWKTemplateTests-mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101C8D1AE417F300BA8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMWKTemplateTests.m; sourceTree = "<group>"; };
-		CE101C9D1AE4185500BA8F5F /* FMWKTemplate-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FMWKTemplate-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE101C9D1AE4185500BA8F5F /* FMWKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMWKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101CA71AE4185500BA8F5F /* FMWKTemplateTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMWKTemplateTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101CBF1AE4191E00BA8F5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE101CC31AE4194000BA8F5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE101C881AE417F300BA8F5F /* FMWKTemplate-Mac.framework in Frameworks */,
+				CE101C881AE417F300BA8F5F /* FMWKTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE101CA81AE4185500BA8F5F /* FMWKTemplate-iOS.framework in Frameworks */,
+				CE101CA81AE4185500BA8F5F /* FMWKTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,9 +115,9 @@
 		CE101C7D1AE417F300BA8F5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE101C7C1AE417F300BA8F5F /* FMWKTemplate-Mac.framework */,
+				CE101C7C1AE417F300BA8F5F /* FMWKTemplate.framework */,
 				CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */,
-				CE101C9D1AE4185500BA8F5F /* FMWKTemplate-iOS.framework */,
+				CE101C9D1AE4185500BA8F5F /* FMWKTemplate.framework */,
 				CE101CA71AE4185500BA8F5F /* FMWKTemplateTests-iOS.xctest */,
 			);
 			name = Products;
@@ -317,7 +317,7 @@
 			);
 			name = "FMWKTemplate-Mac";
 			productName = FMWKTemplate;
-			productReference = CE101C7C1AE417F300BA8F5F /* FMWKTemplate-Mac.framework */;
+			productReference = CE101C7C1AE417F300BA8F5F /* FMWKTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE101C861AE417F300BA8F5F /* FMWKTemplateTests-mac */ = {
@@ -353,7 +353,7 @@
 			);
 			name = "FMWKTemplate-iOS";
 			productName = FMWKTemplate;
-			productReference = CE101C9D1AE4185500BA8F5F /* FMWKTemplate-iOS.framework */;
+			productReference = CE101C9D1AE4185500BA8F5F /* FMWKTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE101CA61AE4185500BA8F5F /* FMWKTemplateTests-iOS */ = {
@@ -595,7 +595,6 @@
 				INFOPLIST_FILE = FMWKTemplate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -613,7 +612,6 @@
 				INFOPLIST_FILE = FMWKTemplate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -670,7 +668,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -690,7 +687,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
