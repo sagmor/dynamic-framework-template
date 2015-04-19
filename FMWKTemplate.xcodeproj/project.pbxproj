@@ -320,9 +320,9 @@
 			productReference = CE101C7C1AE417F300BA8F5F /* FMWKTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CE101C861AE417F300BA8F5F /* FMWKTemplateTests-mac */ = {
+		CE101C861AE417F300BA8F5F /* FMWKTemplateTests-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE101C951AE417F300BA8F5F /* Build configuration list for PBXNativeTarget "FMWKTemplateTests-mac" */;
+			buildConfigurationList = CE101C951AE417F300BA8F5F /* Build configuration list for PBXNativeTarget "FMWKTemplateTests-Mac" */;
 			buildPhases = (
 				CE101C831AE417F300BA8F5F /* Sources */,
 				CE101C841AE417F300BA8F5F /* Frameworks */,
@@ -333,7 +333,7 @@
 			dependencies = (
 				CE101C8A1AE417F300BA8F5F /* PBXTargetDependency */,
 			);
-			name = "FMWKTemplateTests-mac";
+			name = "FMWKTemplateTests-Mac";
 			productName = FMWKTemplateTests;
 			productReference = CE101C871AE417F300BA8F5F /* FMWKTemplateTests-mac.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -410,7 +410,7 @@
 			projectRoot = "";
 			targets = (
 				CE101C7B1AE417F300BA8F5F /* FMWKTemplate-Mac */,
-				CE101C861AE417F300BA8F5F /* FMWKTemplateTests-mac */,
+				CE101C861AE417F300BA8F5F /* FMWKTemplateTests-Mac */,
 				CE101C9C1AE4185500BA8F5F /* FMWKTemplate-iOS */,
 				CE101CA61AE4185500BA8F5F /* FMWKTemplateTests-iOS */,
 			);
@@ -754,7 +754,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		CE101C951AE417F300BA8F5F /* Build configuration list for PBXNativeTarget "FMWKTemplateTests-mac" */ = {
+		CE101C951AE417F300BA8F5F /* Build configuration list for PBXNativeTarget "FMWKTemplateTests-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE101C961AE417F300BA8F5F /* Debug */,

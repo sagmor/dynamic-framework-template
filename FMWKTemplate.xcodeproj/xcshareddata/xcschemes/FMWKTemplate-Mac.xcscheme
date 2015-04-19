@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE101C861AE417F300BA8F5F"
-               BuildableName = "FMWKTemplateTests-mac.xctest"
-               BlueprintName = "FMWKTemplateTests-mac"
+               BuildableName = "FMWKTemplateTests-Mac.xctest"
+               BlueprintName = "FMWKTemplateTests-Mac"
                ReferencedContainer = "container:FMWKTemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE101C861AE417F300BA8F5F"
-               BuildableName = "FMWKTemplateTests-mac.xctest"
-               BlueprintName = "FMWKTemplateTests-mac"
+               BuildableName = "FMWKTemplateTests-Mac.xctest"
+               BlueprintName = "FMWKTemplateTests-Mac"
                ReferencedContainer = "container:FMWKTemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
