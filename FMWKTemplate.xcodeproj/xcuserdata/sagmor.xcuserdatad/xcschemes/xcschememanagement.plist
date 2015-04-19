@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FMWKTemplate 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>FMWKTemplate.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>CE101C861AE417F300BA8F5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE101C9C1AE4185500BA8F5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE101CA61AE4185500BA8F5F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
