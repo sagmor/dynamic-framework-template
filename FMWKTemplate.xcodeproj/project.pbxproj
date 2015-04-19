@@ -15,6 +15,7 @@
 		CE101CBD1AE418EE00BA8F5F /* FMWKTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */; };
 		CE101CC01AE4191E00BA8F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE101CBF1AE4191E00BA8F5F /* Foundation.framework */; };
 		CE101CC41AE4194000BA8F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE101CC31AE4194000BA8F5F /* Foundation.framework */; };
+		CE101CE11AE4339800BA8F5F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CE101CE01AE4339800BA8F5F /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		CE101CDD1AE41B2A00BA8F5F /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		CE101CDE1AE41B2A00BA8F5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE101CDF1AE4326700BA8F5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE101CE01AE4339800BA8F5F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +107,13 @@
 		CE101C721AE417F300BA8F5F = {
 			isa = PBXGroup;
 			children = (
-				CE101CDF1AE4326700BA8F5F /* README.md */,
 				CE101C7E1AE417F300BA8F5F /* FMWKTemplate */,
 				CE101C8B1AE417F300BA8F5F /* FMWKTemplateTests */,
 				CE101CBE1AE4190E00BA8F5F /* Frameworks */,
 				CE101CC51AE41B2A00BA8F5F /* Configurations */,
 				CE101C7D1AE417F300BA8F5F /* Products */,
+				CE101CDF1AE4326700BA8F5F /* README.md */,
+				CE101CE01AE4339800BA8F5F /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -424,6 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE101CE11AE4339800BA8F5F /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
