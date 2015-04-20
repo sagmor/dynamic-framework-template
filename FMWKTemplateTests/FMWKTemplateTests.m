@@ -1,11 +1,3 @@
-//
-//  FMWKTemplateTests.m
-//  FMWKTemplateTests
-//
-//  Created by Seba Gamboa on 4/19/15.
-//  Copyright (c) 2015 SagMor. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
 
 @interface FMWKTemplateTests : XCTestCase
