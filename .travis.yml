@@ -6,5 +6,5 @@ env:
     - XCTOOL_OPTIONS="-configuration Test"
   matrix:
     - SCHEME=FMWKTemplate-Mac
-    - SCHEME=FMWKTemplate-iOS
+    # - SCHEME=FMWKTemplate-iOS
 script: script/cibuild $SCHEME
