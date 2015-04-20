@@ -606,6 +606,142 @@
 			};
 			name = Release;
 		};
+		CED2D5021AE59A3100334AC8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CCA1AE41B2A00BA8F5F /* Profile.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		CED2D5031AE59A3100334AC8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CDC1AE41B2A00BA8F5F /* Mac-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FMWKTemplate/Info.plist;
+			};
+			name = Profile;
+		};
+		CED2D5041AE59A3100334AC8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD91AE41B2A00BA8F5F /* Mac-Application.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMWKTemplateTests/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Profile;
+		};
+		CED2D5051AE59A3100334AC8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD61AE41B2A00BA8F5F /* iOS-Framework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FMWKTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Profile;
+		};
+		CED2D5061AE59A3100334AC8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD41AE41B2A00BA8F5F /* iOS-Application.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMWKTemplateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Profile;
+		};
+		CED2D5071AE59A3700334AC8 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CCC1AE41B2A00BA8F5F /* Test.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Test;
+		};
+		CED2D5081AE59A3700334AC8 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CDC1AE41B2A00BA8F5F /* Mac-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FMWKTemplate/Info.plist;
+			};
+			name = Test;
+		};
+		CED2D5091AE59A3700334AC8 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD91AE41B2A00BA8F5F /* Mac-Application.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMWKTemplateTests/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Test;
+		};
+		CED2D50A1AE59A3700334AC8 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD61AE41B2A00BA8F5F /* iOS-Framework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FMWKTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
+		CED2D50B1AE59A3700334AC8 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE101CD41AE41B2A00BA8F5F /* iOS-Application.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMWKTemplateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Test;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -613,6 +749,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE101C901AE417F300BA8F5F /* Debug */,
+				CED2D5071AE59A3700334AC8 /* Test */,
+				CED2D5021AE59A3100334AC8 /* Profile */,
 				CE101C911AE417F300BA8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -622,6 +760,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE101C931AE417F300BA8F5F /* Debug */,
+				CED2D5081AE59A3700334AC8 /* Test */,
+				CED2D5031AE59A3100334AC8 /* Profile */,
 				CE101C941AE417F300BA8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -631,6 +771,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE101C961AE417F300BA8F5F /* Debug */,
+				CED2D5091AE59A3700334AC8 /* Test */,
+				CED2D5041AE59A3100334AC8 /* Profile */,
 				CE101C971AE417F300BA8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -640,6 +782,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE101CB11AE4185500BA8F5F /* Debug */,
+				CED2D50A1AE59A3700334AC8 /* Test */,
+				CED2D5051AE59A3100334AC8 /* Profile */,
 				CE101CB21AE4185500BA8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -649,6 +793,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE101CB41AE4185500BA8F5F /* Debug */,
+				CED2D50B1AE59A3700334AC8 /* Test */,
+				CED2D5061AE59A3100334AC8 /* Profile */,
 				CE101CB51AE4185500BA8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
