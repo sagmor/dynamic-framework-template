@@ -41,7 +41,7 @@
 		CE101C811AE417F300BA8F5F /* FMWKTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMWKTemplate.h; sourceTree = "<group>"; };
 		CE101C871AE417F300BA8F5F /* FMWKTemplateTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMWKTemplateTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101C8D1AE417F300BA8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMWKTemplateTests.m; sourceTree = "<group>"; };
+		CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMWKTemplateTests.m; sourceTree = "<group>"; usesTabs = 1; };
 		CE101C9D1AE4185500BA8F5F /* FMWKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMWKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101CA71AE4185500BA8F5F /* FMWKTemplateTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMWKTemplateTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE101CBF1AE4191E00BA8F5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -132,8 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				CE101C811AE417F300BA8F5F /* FMWKTemplate.h */,
-				CE101CB81AE4188A00BA8F5F /* Mac */,
-				CE101CB71AE4188400BA8F5F /* iOS */,
 				CE101C7F1AE417F300BA8F5F /* Supporting Files */,
 			);
 			path = FMWKTemplate;
@@ -151,8 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				CE101C8E1AE417F300BA8F5F /* FMWKTemplateTests.m */,
-				CE101CBA1AE418A000BA8F5F /* Mac */,
-				CE101CBB1AE418AB00BA8F5F /* iOS */,
 				CE101C8C1AE417F300BA8F5F /* Supporting Files */,
 			);
 			path = FMWKTemplateTests;
@@ -164,34 +160,6 @@
 				CE101C8D1AE417F300BA8F5F /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CE101CB71AE4188400BA8F5F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CE101CB81AE4188A00BA8F5F /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Mac;
-			sourceTree = "<group>";
-		};
-		CE101CBA1AE418A000BA8F5F /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Mac;
-			sourceTree = "<group>";
-		};
-		CE101CBB1AE418AB00BA8F5F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		CE101CBE1AE4190E00BA8F5F /* Frameworks */ = {
