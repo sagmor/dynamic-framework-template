@@ -1,0 +1,6 @@
+language: objective-c
+install: script/bootstrap
+xcode_workspace: FMWKTemplate.xcworkspace
+xcode_scheme: 
+  - FMWKTemplate-Mac
+  - FMWKTemplate-iOS
