@@ -1,6 +1,10 @@
 language: objective-c
 install: script/bootstrap
 xcode_workspace: FMWKTemplate.xcworkspace
-xcode_scheme: 
-  - FMWKTemplate-Mac
-  - FMWKTemplate-iOS
+env:
+  global:
+    - XCTOOL_OPTIONS="-configuration Test"
+  matrix:
+    - SCHEME=FMWKTemplate-Mac
+    - SCHEME=FMWKTemplate-iOS
+script: script/cibuild $SCHEME
