@@ -1,0 +1,93 @@
+#!/bin/bash
+
+export SCRIPT_DIR=$(dirname "$0")
+
+##
+## Configuration Variables
+##
+
+FRAMEWORK="$@"
+
+config ()
+{
+
+    # A bootstrap script to run before building.
+    #
+    # If this file does not exist, it is not considered an error.
+    : ${BOOTSTRAP="$SCRIPT_DIR/bootstrap"}
+
+    : ${XCWORKSPACE=$(find_pattern "*.xcworkspace")}
+    : ${FRAMEWORK:=${XCWORKSPACE%".xcworkspace"}}
+
+    # A whitespace-separated list of executables that must be present and locatable.
+    : ${REQUIRED_TOOLS="carthage"}
+
+    export BOOTSTRAP
+    export FRAMEWORK
+    export REQUIRED_TOOLS
+}
+
+##
+## Build Process
+##
+
+main ()
+{
+    config
+
+    if [ -n "$REQUIRED_TOOLS" ]
+    then
+        echo "*** Checking dependencies..."
+        check_deps
+    fi
+
+    if [ -f "$BOOTSTRAP" ]
+    then
+        echo "*** Bootstrapping..."
+        "$BOOTSTRAP" || exit $?
+    fi
+
+    echo "*** The following framework will be built and archived:"
+    echo "$FRAMEWORK" | xargs -n 1 echo "  "
+    echo
+
+    build_frameworks || status=1
+    archive_framework "$FRAMEWORK" || status=1
+    exit $status
+}
+
+check_deps ()
+{
+    for tool in $REQUIRED_TOOLS
+    do
+        which -s "$tool"
+        if [ "$?" -ne "0" ]
+        then
+            echo "*** Error: $tool not found. Please install it and cibuild again."
+            exit 1
+        fi
+    done
+}
+
+find_pattern ()
+{
+    ls -d $1 2>/dev/null | head -n 1
+}
+
+build_frameworks ()
+{
+    carthage build --no-skip-current
+}
+
+archive_framework ()
+{
+    local framework=$1
+
+    echo "*** Archiving $framework..."
+    carthage archive $framework
+}
+
+export -f build_frameworks
+export -f archive_framework
+
+main
